@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#header-section-1 {
+    background-color: rgb(5, 5, 107);
+    color: #ffff;
+    padding: 10px 15px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link {
+    color: white;
+}
+
+#header-section-1 div {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: rgba(247, 244, 244);
+}
+
+#header-section-1 div span {
+    width: fit-content;
+}
+
+#header-section-2 {
+    width: 100vw;
+    gap: 20px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #ffff;
+    border: solid 1px;
+}
+
+#header-section-2 div {
+    border: solid 1px;
+    width: fit-content;
+}
+
+#binario {
+    color: rgb(7, 7, 135);
+    padding: 1px 10px;
+    font-size: xx-large;
+}
+
+#store {
+    font-size: xx-large;
+    border: solid;
+    padding: 3px 10px;
+    background-color: rgb(7, 7, 135);
+    border-radius: 20px;
+    color: #ffff
+}
+
+#form {
+    margin-right: 20px;
+
+}
+
+label {
+
+    background-color: rgb(7, 7, 135);
+    width: min-content;
+    border-radius: 0 10px 10px 10px;
+    padding: 5px 5px;
+    color: white;
+}
+
+input {
+   
+    background-color: rgb(199, 198, 198);
+    width: 100px;
+    height: min-content;
+    border-radius: 10px;
+
+    padding: 5px 10px;
+
+}
+
+nav {
+    background-color: rgb(199, 198, 198);
+    padding: 20px 20px;
+    list-style-type: none;
+    width: 100vw;
+}
+
+nav div {
+
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(7, 7, 135);
+}
+
+#section1 {
+    position: relative;
+}
+
+body {
+    background-color: rgb(190, 187, 187);
+
+}
+
+#section-3 {
+    position: relative;
+}
+
+#slogan {
+    background-color: rgba(21, 161, 196, 0.5);
+    color: white;
+    height: 420px;
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#slogan>h1 {
+    margin-bottom: 15px;
+    margin-top: 80px;
+    font-size: xx-large;
+
+}
+
+
+#section4 {
+    margin-top: 10px;
+
+}
+
+#oferta1 {
+    background-color: rgb(2, 52, 52);
+    text-align: center;
+    width: 600px;
+    float: left;
+    height: 300px;
+    padding: 10px;
+}
+
+#oferta2 {
+    background-color: brown;
+    text-align: center;
+    float: right;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    margin-left: 0;
+}
+
+#section-5 {
+    padding: 10px;
+    width: 100vw;
+    margin-top: 350px;
+    background-color: white;
+    height: fit-content;
+}
+
+#section-5 h2 {
+    color: rgb(7, 7, 135);
+    text-align: center;
+    width: 100vw;
+}
+
+#section-5-promo {
+    padding: 10px;
+    width: 80%;
+    height: 200px;
+    margin: auto auto;
+    display: grid;
+
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+}
+
+#section-5-promo div {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    border: solid 1px blue;
+}
+
+button {
+    border: solid 1px;
+    background-color: #457b9d;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+#section-6 {
+    padding: 10px;
+    width: 100vw;
+    margin-top: 10px;
+    background-color: white;
+
+}
+
+#section-6 h2 {
+    color: rgb(7, 7, 135);
+    text-align: center;
+    width: 100vw;
+}
+
+#section-6-maisv {
+    padding: 10px;
+    width: 80%;
+    height: 300px;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+
+}
+
+#section-6-maisv div {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    border: solid 1px blue;
+
+}
+#section-7 {
+    padding: 10px;
+    width: 100vw;
+    margin-top: 10px;
+    background-color: white;
+    height: fit-content;
+}
+#section-7 h2 {
+    color: rgb(7, 7, 135);
+    text-align: center;
+    width: 100vw;
+}
+#section-7-categorias{
+    padding: 10px;
+    width: 80%;
+    height: 300px;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+
+
+}
+#section-7-categorias div{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer{
+    background-color: black;
+    width: 100vw;
+}

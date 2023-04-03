@@ -1,0 +1,8 @@
+para poder ver como o teu site se comporta num pc ou celular.
+	1- A pasta onde tem o site de estar no xampp>hitdocs>o site;
+	2- vai ao comando pront ( digitar ipconfig" vou copiar o inderesso ip que eu estiver a usar no momento");
+	3- inicialisar o xampp;
+	4- no xampp ir ate onde tem o botao confing;
+	5- no botao apache httpd
+	6- vai ate onde tem listem em baixo escreva" listem: cola o emderesso que copiaste la em cima;
+	7- no local onde queres ter acesso a site  cola o enderesso e ja esta;
