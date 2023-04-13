@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>loja-clone</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6431fb8c86.js" crossorigin="anonymous"></script>
 
 </head>
@@ -28,21 +31,22 @@
         </section>
         <section id="header-section-2">
             <div>
-                <h1><span id="binario">Binario</span> <span id="store">Store</span></h1>
-                <form id="form">
-
+                <h1><span id="binario">Binario</span><span id="store">Store</span></h1>
+                <form id="header-form">
                     <input type="search" name="search">
                     <label>
                         <i class="fa-solid fa-magnifying-glass"></i>
-
                     </label>
                 </form>
             </div>
             <div>
-                <span>
-                    <i class="fa-regular fa-user "></i> Login
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </span>
+                <div>
+                    <span><i class="fa-regular fa-user "></i></span><span>Login</span>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    <span id="quant-items">0</span>
+                </div>
             </div>
         </section>
     </header>
@@ -73,9 +77,9 @@
 
             </div>
         </section>
-        <section id="section-5">
-            <h2>promocoes</h2>
-            <div id="section-5-promo">
+        <section id="promotion-section">
+            <h2>Promoções</h2>
+            <div id="items-container">
                 <div>
 
                 </div>
@@ -86,9 +90,12 @@
 
                 </div>
                 <div>
+
                 </div>
             </div>
-            <button> Ver tudo</button>
+           <div class="button-section">
+                <button class="show-all-button">Ver tudo</button>
+           </div>
         </section>
         <section id="section-6">
             <h2>Mais vendidos</h2>
@@ -111,39 +118,55 @@
         <section id="section-7">
             <h2>Categorias</h2>
             <div id="section-7-categorias">
-                <div>
+                <div class="categoria">
+                    <div class="img">
 
+                    </div>
+                    <div class="texto">Categoria 1</div>
                 </div>
+                <div class="categoria">
+                    <div class="img">
 
-                <div>
-
+                    </div>
+                    <div class="texto">Categoria 1</div>
                 </div>
-                <div>
+                <div class="categoria">
+                    <div class="img">
 
+                    </div>
+                    <div class="texto">Categoria 1</div>
                 </div>
-                <div>
+                <div class="categoria">
+                    <div class="img">
 
-                </div>
-                <div>
-
+                    </div>
+                    <div class="texto">Categoria 1</div>
                 </div>
             </div>
             <div id="section-7-categorias">
-                <div>
+                <div class="categoria">
+                    <div class="img">
 
+                    </div>
+                    <div class="texto">Categoria 1</div>
                 </div>
+                <div class="categoria">
+                    <div class="img">
 
-                <div>
-
+                    </div>
+                    <div class="texto">Categoria 1</div>
                 </div>
-                <div>
+                <div class="categoria">
+                    <div class="img">
 
+                    </div>
+                    <div class="texto">Categoria 1</div>
                 </div>
-                <div>
+                <div class="categoria">
+                    <div class="img">
 
-                </div>
-                <div>
-
+                    </div>
+                    <div class="texto">Categoria 1</div>
                 </div>
             </div>
             <button> ver mais</button>
