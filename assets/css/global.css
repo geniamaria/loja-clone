@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+@media (min-width: 1024px) {
+    /*
+ESTILOS PARA O CABECALHO E MENU
+*/
+#header-section-1 {
+    background-color: #023e8a;
+    color: #ffff;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.link {
+    color: white;
+    text-decoration:underline;
+
+}
+
+#header-section-1 div {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: rgb(247, 244, 244);
+}
+
+#header-section-1 div span {
+    width: fit-content;
+}
+
+#header-section-2 {
+    gap: 20px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #ffff;
+    justify-content: space-between
+}
+
+#header-section-2 div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+#binario {
+    color: rgb(7, 7, 135);
+    padding: 1px 5px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+#store {
+    font-size: x-large;
+    border: solid;
+    padding: 3px 10px;
+    background-color: rgb(7, 7, 135);
+    border-radius: 20px;
+    color: #ffff
+}
+
+#header-form {
+    margin-left: 20px;
+    height: fit-content;
+}
+
+#header-form label {
+    color: white;
+    background-color: rgb(7, 7, 135);
+    border-radius: 0 15px 15px 0;
+    padding: 4px 10px;
+    border: none;
+    margin-left: -4px;
+}
+
+#header-form input {
+    background-color: rgb(199, 198, 198);
+    width: 200px;
+    border-radius: 15px 0 0 15px;
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+}
+
+#header-form input:focus {
+    outline: solid 2px rgb(7, 7, 135);
+}
+
+#quant-items {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: rgb(220, 217, 217);
+    padding: 15px 15px;
+    list-style-type: none;
+}
+
+nav div {
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(7, 7, 135);
+}
+
+/*
+ESTILOS PARA O FOOTER
+*/
+#section-10 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    height: 300px;
+}
+#section-10-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+ .pagar{
+    margin-top: 10px;
+    text-align: center;
+   
+}
+footer {
+    background-color: rgb(211, 208, 208);
+    text-align: center;
+    padding: 20px;
+    
+}
+}
+
+@media (min-width: 320px) {
+    #header-section-1 {
+        background-color: #023e8a;
+        color: #ffff;
+        padding: 10px 15px;
+        font-size: small;
+    }
+
+    #header-section-2 {
+        position: relative;
+    }
+
+    .cart {
+        position: absolute;
+        top: 0;
+        right: 3%;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .header-contacts-section {
+        display: none;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    #binario {
+        color: rgb(7, 7, 135);
+        padding: 1px 5px;
+        font-size: x-large;
+        font-weight: 500;
+    }
+    
+    #store {
+        font-size: x-large;
+        border: solid;
+        padding: 3px 10px;
+        background-color: rgb(7, 7, 135);
+        border-radius: 20px;
+        color: #ffff
+    }
+    .cart-shopping {
+        display: flex;
+        gap: 15px;
+    }
+    .cart-shopping div {
+        display: flex;
+        gap: 5px;
+    }
+    #quant-items {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    #header-form {
+        margin-left: 20px;
+        height: fit-content;
+        margin: 30px auto 15px auto;
+        width: fit-content;
+    }
+    
+    #header-form label {
+        color: white;
+        background-color: rgb(7, 7, 135);
+        border-radius: 0 15px 15px 0;
+        padding: 4px 10px;
+        border: none;
+        margin-left: -4px;
+    }
+    
+    #header-form input {
+        background-color: rgb(199, 198, 198);
+        width: 200px;
+        border-radius: 15px 0 0 15px;
+        padding: 5px 5px;
+        border: none;
+        outline: none;
+    }
+
+    nav {
+        display: none;
+    }
+}
