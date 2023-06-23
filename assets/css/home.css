@@ -2,89 +2,107 @@
     #section1 {
         position: relative;
     }
-    
+
     body {
-        background-color: rgb(190, 187, 187);
+        background-color: #DBDBDB;
     }
-    
-    #section-3 {
+
+    #slogan-section {
         position: relative;
+
     }
-    
-    #slogan {
-        background-color: rgba(8, 192, 238, 0.648);
-        color: white;
+
+    #slogan-section #slogan {
+        background-color: #0077b6;
+        opacity: 0.6;
         height: 420px;
-        width: 500px;
-        text-align: center;
+        width: 44%;
         position: absolute;
         top: 0;
         left: 0;
     }
-    
-    #slogan>h1 {
+
+    #slogan-section .text-slogan {
+        color: white;
+        text-align: center;
+        opacity: none;
+    }
+
+    #slogan-section #slogan h1 {
         margin-bottom: 15px;
         margin-top: 80px;
         font-size: xx-large;
+        font-weight: 900;
     }
-    
-    #section4 {
-        
-        margin: 10px 20px;
-       
+
+    #slogan-section #slogan h3 {
+        font-size: x-large;
+        font-weight: bolder;
     }
-    
+
+    #oferta-section {
+        margin: 20px ;
+      
+    }
+
     #oferta1 {
-        background-color: rgb(2, 52, 52);
+        background-color: rgb(3, 64, 64);
         text-align: center;
-        width: 550px;
+        width:660px;
         float: left;
-        height: 300px;
+        height: 400px;
         padding: 10px;
+        margin-left: 10px;
     }
-    
+
     #oferta2 {
         background-color: brown;
         text-align: center;
         float: right;
-        width: 550px;
-        height: 300px;
+        width: 660px;
+        height: 400px;
         padding: 10px;
-        margin-left: 0;
+        margin-right: 10px;
     }
-    
+
+    #oferta-section .text-oferta {
+        color: white;
+        text-align: center;
+        margin: 25%;
+        font-weight: 900;
+        text-decoration: solid;
+    }
+
     #promotion-section {
         padding: 10px;
         background-color: white;
         height: fit-content;
-        margin: 350px 10px 10px 10px;
+        margin: 425px 10px 10px 10px;
     }
-    
+
     #promotion-section h2 {
-        color: rgb(7, 7, 135);
+        color: #023e8a;
         text-align: center;
         font-weight: 700;
     }
-    
+
     #promotion-section #items-container {
         padding: 10px;
-        width: 95%;
         height: fit-content;
-        margin: auto;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
-    
+
     #items-container div {
-        border: solid 1px blue;
+        border: solid 1px #023e8a;
         width: 23%;
         height: 300px;
     }
-    
+
     .show-all-button {
         color: white;
-        background-color: rgb(7, 7, 135);
+        background-color: #023e8a;
         border-radius: 30px;
         font-size: large;
         font-weight: 700;
@@ -92,45 +110,42 @@
         width: 100%;
         padding: 10px 20px;
     }
+
     .button-section {
         margin: 20px auto;
         width: 15%;
     }
-    
-    #section-6 {
+
+    #best-sellers-section {
         padding: 10px;
         margin-top: 10px;
         background-color: white;
         margin: 10px 10px;
-    
     }
-    
-    #section-6 h2 {
-        color: rgb(7, 7, 135);
+
+    #best-sellers-section h2 {
+        color: #023e8a;
         text-align: center;
-    
+        font-weight: 700;
     }
-    
-    #section-6-maisv {
+
+    #items-container-best-sellers {
         padding: 10px;
-        width: 80%;
-        height: 900px;
-        margin: auto auto;
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto auto auto;
+        height: fit-content;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
         gap: 10px;
-    
     }
-    
-    #section-6-maisv div {
-        font-size: 40px;
-        text-align: center;
-        font-weight: bolder;
-        border: solid 1px blue;
-    
+
+    #items-container-best-sellers div {
+        border: solid 1px #023e8a;
+        width: 23%;
+        height: 300px;
+
     }
-    
+
     #section-7 {
         padding: 10px;
         margin-top: 10px;
@@ -138,103 +153,242 @@
         height: fit-content;
         margin: 10px 10px;
     }
-    
+
     #section-7 h2 {
-        color: rgb(7, 7, 135);
+        color: #023e8a;
         text-align: center;
+        font-weight: 700;
     }
-    
+
     #section-7-categorias {
-        padding: 10px;
         width: 80%;
         height: 300px;
-        margin: auto auto;
+        margin: auto;
         display: grid;
         grid-template-columns: auto auto auto auto auto;
         grid-template-rows: auto auto auto auto auto;
-        gap: 10px;
-    
+        gap: 20px;
+        justify-content: space-evenly;
     }
-    
+
     #section-7-categorias .img {
-        font-size: 40px;
         text-align: center;
         font-weight: bolder;
-        background-color: rgb(220, 217, 217);
+        background-color: #DBDBDB;
         width: 200px;
         height: 200px;
-        padding: 5px;
         border-radius: 50%;
-        justify-content: center;
-        align-items: center;
-    
     }
-    
+
     #section-7-categorias .texto {
         text-align: center;
         margin-top: 10px;
+        font-weight: 800;
     }
-    
-    #section-8 {
-        height: 300px;
+
+    #marcas-section {
+        height: 250px;
         background-color: white;
-        margin-top: 20px;
-        margin: 10px 10px;
-    
+        margin: 10px;
+
     }
-    
-    #section-8 h1 {
+
+    #marcas-section div {
+        width: fit-content;
+        margin: 0 500px;
         text-align: center;
-        padding: 10px;
-        color: rgb(8, 8, 172);
-    
+
     }
-    #section-8 img {
-        width:300px;
-        height: 200px; 
-        margin: 0 auto ;
+
+    #marcas-section .marcas {
+        color: #023e8a;
+        font-weight: bolder;
+        margin: 20px 500px;
     }
-    
-    #section-9 {
-        height: 200px;
-        margin-top: 20px;
-        margin: 10px 10px;
-        background-color: rgb(9, 9, 130);
+
+
+   
+
+} 
+@media (max-width: 480px) {
+    #section1 {
+        position: relative;
+    }
+
+    body {
+        background-color: #DBDBDB;
+    }
+
+    #slogan-section {
+        position: relative;
+
+    }
+
+    #slogan-section #slogan {
+        background-color: #0077b6;
+        opacity: 0.6;
+        height: 420px;
+        width: 60%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #slogan-section .text-slogan {
         color: white;
         text-align: center;
+        opacity: none;
+    }
+
+    #slogan-section #slogan h1 {
+        margin-bottom: 5px;
+        margin-top: 40px;
+        font-size: x-large;
+        font-weight: 500;
+    }
+
+    #slogan-section #slogan h3 {
+        font-size: x-large;
+        font-weight: bolder;
+    }
+
+    #oferta-section {
+        margin: 0 auto;
+    }
+
+    #oferta1 {
+        background-color: rgb(3, 64, 64);
+        width: 95%;
+        padding: 10%;
+        height: 300px;
+        margin: 10px auto;
+    }
+
+    #oferta2 {
+        background-color: brown;
+        width: 95%;
+        padding: 10%;
+        margin: 10px auto;
+        height: 300px;
+    }
+
+    #oferta-section .text-oferta {
+        color: white;
+        text-align: center;
+        margin: 25%;
+        font-weight: 900;
+        text-decoration: solid;
+    }
+
+    #promotion-section {
+        padding: 3px;
+        background-color: white;
+        height: fit-content;
+        margin: 25px 5px 5px 5px;
+    }
+
+    #promotion-section h2 {
+        color: #023e8a;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    #promotion-section #items-container {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap:10px
+    }
+
+    #items-container div {
+        border: solid 1px #023e8a;
+        width: 95%;
+        height: 300px;
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    .show-all-button {
+        color: white;
+        background-color: #023e8a;
+        border-radius: 30px;
+        font-size: large;
+        font-weight: 700;
+        border: none;
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .button-section {
+        margin: 20px auto;
+        width: 30%;
+    }
+
+    #best-sellers-section {
+        padding: 3px;
+        margin-top: 5px;
+        background-color: white;
+        margin: 5px 5px;
+    }
+
+    #best-sellers-section h2 {
+        color: #023e8a;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    #items-container-best-sellers {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #items-container-best-sellers div {
+        border: solid 1px #023e8a;
+        width: 95%;
+        gap: 10px;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    #section-7 {
         padding: 10px;
+        margin-top: 5px;
+        background-color: white;
+        height: fit-content;
+        margin: 5px 5px;
+    }
+
+    #section-7 h2 {
+        color: #023e8a;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    #section-7-categorias {
+        width: 80%;
+        height: 970px;
+        margin: 0 auto;
+        display: block;
+        gap: 20px;
+    }
+
+    #section-7-categorias .img {
+        margin: 0 auto;
+        font-weight: bolder;
+        background-color: #DBDBDB;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
        
     }
-    #section-9 h2{
-        font-size: x-large;
-        padding: 10px;
-    
+
+    #section-7-categorias .texto {
+        text-align: center;
+        margin-top: 10px;
+        font-weight: 800;
     }
-    
-    #assina {
-    
-        background-color: black;
-        width: 40%;
-        border-radius: 30px;
-        padding: 10px 20px ;
-        color: white;
-        margin-top: 20px;
-        height: min-content;
-    
-    }
-    
-    #assi {
-    
-        background-color: rgb(199, 198, 198);
-        width: 40%;
-        height: min-content;
-        border-radius: 10px;
-        margin-top: 20px;   
-        padding: 10px 20px;
-        border-radius: 30px;
-    
-    }
-    
-    
-    
+
+   
 }

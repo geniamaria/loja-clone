@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/6431fb8c86.js" crossorigin="anonymous"></script>
 
 </head>
@@ -42,14 +43,18 @@
             </div>
             <div class="cart">
                 <div class="login">
-                    <span><i class="fa-regular fa-user "></i></span><span>Login</span>
+                    <span><i class="fa-regular fa-user fa-1x"></i></span><span>Login</span>
                 </div>
                 <div class="cart-shopping">
                     <div>
-                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-solid fa-cart-shopping fa-2\3x"></i></span>
                         <span id="quant-items">0</span>
                     </div>
-                    <span><i class="fa-solid fa-bars fa-2x"></i></span>
+                    <div class="menu-bar">
+                        <span><i class="fa-solid fa-bars fa-2x"></i></span>
+
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -57,7 +62,7 @@
     <nav>
         <div>
             <a href="#">Pagina Inicial</a>
-            <a href="#"> Microcontroladores</a>
+            <a href="./Microcontroladores/"> Microcontroladores</a>
             <a href="#">contadores e Registadores</a>
             <a href="#">Displays e LED's</a>
             <a href="#">Acessórios Arduino</a>
@@ -65,19 +70,19 @@
         </div>
     </nav>
     <main>
-        <section id="section-3">
+        <section id="slogan-section">
             <img src="./assets/img/backgroun1.jpg" style="width:100%; height: 420px;">
             <div id="slogan">
-                <h1> Preços incríveis <br> para todos os seus <br> produtos favoritos.</h1>
-                <h3> Compre mais e pague menos.</h3>
+                <h1 class="text-slogan"> Preços incríveis <br> para todos os seus <br> produtos favoritos.</h1>
+                <h3 class="text-slogan">Compre mais e pague menos. </h3>
             </div>
         </section>
-        <section id="section4">
+        <section id="oferta-section">
             <div id="oferta1">
-                <h2>Oferta1</h2>
+                <h2 class="text-oferta"> Oferta 1</h2>
             </div>
             <div id="oferta2">
-                <h2>Oferta 2</h2>
+                <h2 class="text-oferta"> Oferta 2</h2>
 
             </div>
         </section>
@@ -97,13 +102,13 @@
 
                 </div>
             </div>
-           <div class="button-section">
+            <div class="button-section">
                 <button class="show-all-button">Ver tudo</button>
-           </div>
+            </div>
         </section>
-        <section id="section-6">
+        <section id="best-sellers-section">
             <h2>Mais vendidos</h2>
-            <div id="section-6-maisv">
+            <div id="items-container-best-sellers">
                 <div>
 
                 </div>
@@ -117,10 +122,12 @@
 
                 </div>
             </div>
-            <button> ver mais</button>
+            <div class="button-section">
+                <button class="show-all-button">Ver tudo</button>
+            </div>
         </section>
         <section id="section-7">
-            <h2>Categorias</h2>
+            <h2> Compre Por Categoria</h2>
             <div id="section-7-categorias">
                 <div class="categoria">
                     <div class="img">
@@ -173,25 +180,27 @@
                     <div class="texto">Categoria 1</div>
                 </div>
             </div>
-            <button> ver mais</button>
-        </section>
-        <section id="section-8">
-            <h1> Marcas</h1>
-            <img src="./assets/img/arduino.svg" >
 
         </section>
-        <section id="section-9">
+        <section id="marcas-section">
+            <div>
+                <h class="marcas"> Marcas</h2>
+                    <img src="./assets/img/arduino.svg" style="width: 200px; height: 200px;">
+            </div>
+
+        </section>
+        <section id="Newsletter-section">
             <h2> Newsletter</h2>
             <p>assina para receber novidades e ofertas especiais</p>
             <input id="assi" type="search" name="search">
-            <label id="assina"> Assina </label>
+            <button id="assina"> Assinar </button>
         </section>
         <section id="section-10">
             <div id="section-10-1">
-                <div >
+                <div>
                     <h2>conctato</h2>
                     <p>infor@store.brinario.com<br>
-                    (+258 84 8839501)</p>
+                        (+258 84 8839501)</p>
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-square-instagram"></i>
                     <i class="fa-brands fa-twitter"></i>
@@ -213,7 +222,7 @@
                 </div>
 
             </div>
-            <hr>
+            <p class="borda"></p>
             <p class="pagar">Métodos de pagamentos</p>
 
         </section>
