@@ -349,11 +349,41 @@ ESTILOS PARA O FOOTER
 
     aside {
         background-color: #DBDBDB;
+        margin-top: 0;
+
+    }
+    .user {
+        border: solid 1px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
-    nav {
-        display: none;
+    .aside-menu {
+        text-decoration: underline;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
+
+    .link-1 {
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .link-2 {
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
 
     #itens-menu {
         display: block;

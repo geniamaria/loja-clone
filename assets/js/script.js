@@ -1,18 +1,20 @@
 $("#mostrar-menu").show();
 $("#ocultar-menu").hide();
-$("#menu").show;
+$("aside").hide();
 
 $("#mostrar-menu").click(function(){
-$("mostar-menu").toggle();
+$("#mostar-menu").toggle();
 $("#ocultar-menu").toggle();
 
  $("aside").animate({
-        left: '0'
-    }, 3000, function() {
-        $("#menu").show(1500);
+       marginTop:'0'
+    }, 1000, function() {
+        $("aside").show(1000);
     });
 });
 $("#ocultar-menu").click(function(){
-$("mostar-menu").toggle();
+$("#mostar-menu").toggle();
 $("#ocultar-menu").toggle();
+
+$("aside").hide();
 });

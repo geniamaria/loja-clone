@@ -52,7 +52,6 @@
                     </div>
                     <div class="menu-bar">
                         <span id="mostrar-menu"><i class="fa-solid fa-bars fa-2x"></i></span>
-                        <span id="ocultar-menu">X</span>
                     </div>
 
                 </div>
@@ -60,24 +59,28 @@
         </section>
     </header>
     <aside>
-        <div class="login">
-            <span><i class="fa-regular fa-user fa-1x"></i></span><span>Login</span>
-        </div>
-       <div class="aside-menu">
-           <div> <a class="link" href="#">Sobre</a>
-            <a class="link" href="#">contacto</a></div>
-       <div>
-        <a class="link" href="#">Centro de ajuda</a>
-        <span class="link"> Ligue-nos +258 84 8839501</span>
-       </div>
-        </div>
+            <div id="user" >
+                <span><i class="fa-regular fa-user fa-2x"></i></span><span>Login</span>
+                <span id="ocultar-menu" style="text-align: right;"><i class="fa-solid fa-xmark fa-2x"></i></span>
+            </div>
+            <div class="aside-menu">
+                <div class="link-1">
+                    <a href="#">Sobre</a>
+                    <a href="#">contacto</a>
+                </div>
+                <div class="link-2">
+                    <a href="#">Centro de ajuda</a>
+                    <span> Ligue-nos +258 84 8839501</span>
+                </div>
+            </div>
+        
         <div id="itens-menu">
             <a href="#" class="itens">Pagina Inicial</a>
             <a href="./Microcontroladores/" class="itens"> Microcontroladores</a>
             <a href="#" class="itens">contadores e Registadores</a>
             <a href="#" class="itens">Displays e LED's</a>
-            <a href="#" class="itens">Acessórios Arduino</a> 
-             <a href="#" class="itens">Componentes Discretos</a>
+            <a href="#" class="itens">Acessórios Arduino</a>
+            <a href="#" class="itens">Componentes Discretos</a>
         </div>
 
     </aside>
@@ -253,8 +256,8 @@
         <p> &#169 2022 Binario. Todos os direitos reservados
         </p>
     </footer>
-<script src="./assets/js/jquery-3.7.0.js"></script>
-<script src="./assets/js/script.js"></script>
+    <script src="./assets/js/jquery-3.7.0.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
