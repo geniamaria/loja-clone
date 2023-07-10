@@ -3,6 +3,7 @@ $("#ocultar-menu").hide();
 $("aside").hide();
 
 $("#mostrar-menu").click(function(){
+    $('header').hide();
 $("#mostar-menu").toggle();
 $("#ocultar-menu").toggle();
 
@@ -13,6 +14,7 @@ $("#ocultar-menu").toggle();
     });
 });
 $("#ocultar-menu").click(function(){
+    $('header').show();
 $("#mostar-menu").toggle();
 $("#ocultar-menu").toggle();
 

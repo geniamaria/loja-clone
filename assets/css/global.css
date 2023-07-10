@@ -265,10 +265,7 @@ ESTILOS PARA O FOOTER
         right: 3%;
     }
 
-    .menu-bar {
-        border: solid;
-    }
-
+ 
     .login {
         display: none;
     }
@@ -352,38 +349,33 @@ ESTILOS PARA O FOOTER
         margin-top: 0;
 
     }
-    .user {
-        border: solid 1px;
+    #user {
         padding: 10px;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
+    }
+    
+    #login {
+        font-size: larger;
     }
 
     .aside-menu {
         text-decoration: underline;
         color: black;
+        display: block;
+        justify-content: space-around;
+        margin: 10px;
+      
+    }
+    .link-1{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
+        font-style:normal;
+        
     }
-
-    .link-1 {
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-
-    }
-
-    .link-2 {
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-
-    }
-
+   
 
     #itens-menu {
         display: block;
